@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(26, 26, 26, 0.8); /* 80% opacity */
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+}
+
+button {
+    border-radius: 25px;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: rgba(26, 26, 26, 0.8); /* 80% opacity */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional Styles for Each Page */
+
+#about {
+    border-radius: 25px;
+    background-color: #ffd966;
+    padding: 20px;
+}
+
+#features {
+    border-radius: 25px;
+    background-color: #e6f7ff;
+    padding: 20px;
+}
+
+#download {
+    border-radius: 25px;
+    background-color: #a6b1b5;
+    padding: 20px;
+}
+
+#login {
+    border-radius: 25px;
+    background-color: #f2dede;
+    padding: 20px;
+}
+
+#contact {
+    border-radius: 25px;
+    background-color: #d9ead3;
+    padding: 20px;
+}
+#register {
+    border-radius: 25px;
+    background-color: #e6e6fa;
+    padding: 20px;
+}
+header img {
+    width: 200px; /* Set a smaller width for your logo */
+    height: auto; /* Maintain the aspect ratio */
+}
